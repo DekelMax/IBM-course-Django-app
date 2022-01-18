@@ -1,10 +1,10 @@
   applications:
-  - name: onlinecourse
+  - name: dekels-django-app
     routes:
       - route: host.domain
     memory: 128M
     buildpack: python_buildpack
-  - name: onlinecourse-nginx
+  - name: dekels-django-app
     routes:
       - route: host.domain/static
     memory: 128M
